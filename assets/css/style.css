@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* I reorded the flow of the css to follow the structure of the semantic html */
 body {
     background-color: #d9dcd6;
     font-size: 18px;
@@ -33,7 +33,7 @@ header nav ul li {
     display: inline-flex;
     margin-left: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight:400;
 }
 
@@ -65,7 +65,7 @@ footer h2 {
     background-size: cover;
     background-position: center;
 }
-
+/* I condolidated the content section from indivdual stylings per block to a universal styling for all three. */
 .content {
     width: 75%;
     display: inline-block;
@@ -106,7 +106,7 @@ footer h2 {
 .child img {
     max-height: 200px;
 }
-
+/* I condolidated the benefits section from indivdual stylings per block to a universal styling for all three. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
