@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* I reorded the flow of the css to follow the structure of the semantic html */
+/* I ordered the flow of the css file to follow the structure of the semantic html */
 body {
     background-color: #d9dcd6;
     font-size: 18px;
