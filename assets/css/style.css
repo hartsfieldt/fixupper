@@ -98,7 +98,7 @@ footer h2 {
     margin-left: 25px;
 }
 
-.child {
+.article-features {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -107,10 +107,12 @@ footer h2 {
     color: #ffffff;
 }
 
-.child img {
+.article-features img {
     max-height: 200px;
 }
-/* I condolidated the benefits section from indivdual stylings per block to a universal styling for all three. */
+/* I consolidated the benefits section from individual stylings per container to universal stylings.
+Therefore, we no longer have three sets of stylings each container, h3, and image. */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -122,7 +124,7 @@ footer h2 {
     background-color: #2589bd;
 }
 
-.b1 {
+.benefits-feature {
     margin-bottom: 32px;
     color: #ffffff;
 }
