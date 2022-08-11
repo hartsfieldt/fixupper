@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* I ordered the flow of the css file to follow the structure of the semantic html */
+/* My main objective was to consolidate the stylings and add additional styling features to the html elements*/
+
+/* I gave a font size in the body structure so that it would be consistent throughout the page. */
 body {
     background-color: #d9dcd6;
     font-size: 18px;
 }
 
 header {
-    display: flex;
+    display: flex; /* I used a flex container and its features for the header element to wrap the nav bar and to give space between each section.*/
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -25,6 +27,10 @@ header h1 {
     font-size: 48px;
     color: #ffffff;
     padding-top: 15px;
+}
+/* I gave the class .seo its own styling apart from the header h1 because they are different colors.*/
+.seo {
+    color: #d9dcd6;
 }
 
 header nav {
@@ -42,7 +48,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-text-decoration: none;  
+text-decoration: none;
 color: #ffffff;
 }
 
@@ -57,10 +63,6 @@ footer h2 {
     font-size: 20px;
 }
 
-.seo {
-    color: #d9dcd6;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -69,7 +71,10 @@ footer h2 {
     background-size: cover;
     background-position: center;
 }
-/* I condolidated the content section from indivdual stylings per block to a universal styling for all three. */
+
+/* I consolidated the service feature section from individual stylings per container to universal stylings.
+Therefore, we no longer have three sets of stylings for each container, heading, and image. */
+
 .service-features {
     width: 75%;
     display: inline-block;
@@ -111,7 +116,7 @@ footer h2 {
     max-height: 200px;
 }
 /* I consolidated the benefits section from individual stylings per container to universal stylings.
-Therefore, we no longer have three sets of stylings each container, h3, and image. */
+Therefore, we no longer have three sets of stylings for each container, heading, and image. */
 
 .benefits {
     margin-right: 20px;
